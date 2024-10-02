@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+*{scroll-behavior: smooth}
+.bg-glass
+{
+	
+		background: rgb(214, 185, 236);
+  background: radial-gradient(circle, rgb(194, 144, 232) 0%, rgb(223, 176, 236) 45%, rgb(163, 163, 241) 100%);
+	}
+
+p{ line-height: 1.6rem; color: rgba(0,0,0,0.6)}
+
+body{
+background: rgb(185, 160, 200,0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.8px);
+-webkit-backdrop-filter: blur(5.8px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#about .len
+{ position: absolute; width: 200px; height: auto;
+left: 40%}
+#hero .content-huong
+{
+	width: 70%; left: 15%; bottom: 50px
+}
+/*section
+{ min-height:100vh
+}*/
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #4e2173;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #4e2173;
+    border-bottom:5px solid #4e2173;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #aa61dd;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #6e3daa;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #4e2173;
+    border-bottom:5px solid rgba(174, 100, 230, 0.85);
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #6e3daa;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
